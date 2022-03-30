@@ -1,0 +1,27 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "testing practice",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dangelo-JAN/testing-practice.git"
+  },
+  "author": "Dangelo Arrivillaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dangelo-JAN/testing-practice/issues"
+  },
+  "homepage": "https://github.com/Dangelo-JAN/testing-practice#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1"
+  }
+}
