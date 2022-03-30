@@ -3,7 +3,7 @@ const stringLength = (string) => {
     if (string.length < 1) throw new Error('String no longer enough');
     if (string.length > 10) throw new Error('String too big');
   } catch (e) {
-    throw (e);
+    return (e);
   }
 
   return string.length;
